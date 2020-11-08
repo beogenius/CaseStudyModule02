@@ -1,0 +1,86 @@
+*{
+    -light-black: rgb(74.0, 75.0, 78.0);
+    -dark-highlight: rgb(87.0, 89.0, 92.0);
+    -dark-black: rgb(39.0, 40.0, 40.0);
+    -darkest-black: rgb(5.0, 5.0, 5.0);
+    -mid-gray: rgb(216.0, 222.0, 227.0);
+}
+
+.root {
+    -fx-background-color: -dark-black;
+    -fx-font-fill: orange ;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: orange;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: black ;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: orange;
+}
+
+.table-row-cell{
+    -fx-background-color: -light-black;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -dark-highlight;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #ff3d77;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+.root-pane {
+    -fx-background-color: -dark-black;
+}
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: green;
+}
+
+#title-text {
+    -fx-font-size: 40px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-fill: yellow;
+}
+
+#actionTarget {
+    -fx-background-color: -dark-black;
+    -fx-background-color: -dark-black;
+}
+
+.button {
+    -fx-text-fill: orange;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: -darkest-black;
+}
+
+.chart-pie-label-line {
+    -fx-stroke: #8b4513;
+    -fx-fill: #8b4513;
+}
+
+.chart-pie-label {
+    -fx-fill: #8b4513;
+    -fx-font-size: 1.15em;
+}
+.chart-legend {
+    -fx-stroke: #daa520;
+}
+
